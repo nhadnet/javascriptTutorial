@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>to do list</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="wrapper" id="mywra">
+      <header>my to do list</header>
+      <div class="inputitem">
+        <input class="input" id="myinput" type="text" placeholder="Title..." />
+        <span onclick="newElement()" class="addBtn">Add</span>
+      </div>
+      <ul class="ul" id="myul">
+      <li class="checked">Shopping 
+    <span class="close"><i class="fa-sharp fa-solid fa-xmark"></i></span></li>  
+    <li>Cooking
+    <span class="close">       
+   <i class="fa-sharp fa-solid fa-xmark" ></i></li>
+  </span></li>
+ <li>walking <span class="close" >       
+   <i class="fa-sharp fa-solid fa-xmark"></i></li>
+  </span></li>
+        <li>Read book <span class="close">       
+          <i class="fa-sharp fa-solid fa-xmark"></i></li>
+        </span</li>
+          <li>Do nothing <span class="close">       
+            <i class="fa-sharp fa-solid fa-xmark"></i></li>
+          </span></li>
+      </ul>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
